@@ -5,3 +5,6 @@ steps:
   - name: "gcr.io/cloud-builders/npm"
     args: ["run", "lint"]
     dir: "snippets"
+
+options:
+  defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
