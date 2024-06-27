@@ -65,5 +65,5 @@ steps:
     
   
 options:
-  machineType: "N1_HIGHCPU_8"
+  machineType: "e2-highcpu-8"
   defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
